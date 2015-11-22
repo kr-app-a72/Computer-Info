@@ -1,0 +1,27 @@
+c:\users\tr0ls\documents\visual studio 2013\Projects\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.exe.config
+c:\users\tr0ls\documents\visual studio 2013\Projects\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.csprojResolveAssemblyReference.cache
+c:\users\tr0ls\documents\visual studio 2013\Projects\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer_state.Properties.Resources.resources
+c:\users\tr0ls\documents\visual studio 2013\Projects\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.csproj.GenerateResource.Cache
+c:\users\tr0ls\documents\visual studio 2013\Projects\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.exe
+c:\users\tr0ls\documents\visual studio 2013\Projects\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.pdb
+c:\users\tr0ls\documents\visual studio 2013\Projects\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.exe
+c:\users\tr0ls\documents\visual studio 2013\Projects\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.pdb
+C:\Users\tr0ls\Documents\Visual Studio 2013\Projects\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer_state.Main.resources
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.exe.config
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.exe
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.pdb
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.exe
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.pdb
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer_state.Main.resources
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer_state.Properties.Resources.resources
+C:\Users\Administrator\Downloads\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.csproj.GenerateResource.Cache
+F:\Visual Studio\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.exe.config
+F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.exe
+F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.pdb
+F:\Visual Studio\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.exe
+F:\Visual Studio\Get_Computer state\Get_Computer state\bin\Debug\Get_Computer state.pdb
+F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.csprojResolveAssemblyReference.cache
+F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer_state.Main.resources
+F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer_state.Properties.Resources.resources
+F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.csproj.GenerateResource.Cache
