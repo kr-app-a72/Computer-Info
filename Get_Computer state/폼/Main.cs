@@ -13,6 +13,12 @@ using System.Security.Principal;
 using System.Management;
 using System.Net;
 using System.Net.Sockets;
+using System.IO;
+using System.Text;
+using System.Threading.Tasks;
+
+
+
 
 namespace Get_Computer_state
 {
@@ -29,8 +35,10 @@ namespace Get_Computer_state
         public static string City = string.Empty;
         public static string lastStatus = "Active";
         public static int ImageIndex = 0;
-        public Main()
+        public static String owner;
+        public Main(String s)
         {
+            owner = s;
             InitializeComponent();
         }
         public static string GetCpu() //CPU
@@ -161,11 +169,6 @@ namespace Get_Computer_state
             return MACAddress;
         }
 
-        public string GETOS()
-        {
-            return Environment.OSVersion.VersionString;
-        }
-        
         public string GETProcessorCount()
         {
             return Environment.ProcessorCount.ToString();
@@ -177,6 +180,18 @@ namespace Get_Computer_state
             return is64;
         }
 
+        public static void save() {
+            int i = GetRam();
+            string s = i.ToString();
+            if (File.Exists(owner + ".ci")) {
+                File.Delete(owner+".ci");
+            }
+            StreamWriter sw = new StreamWriter(owner+".ci");
+            sw.Write("c.-"+GetCpu()+"\n");
+            sw.Write("r.-"+s);
+            sw.Close();
+
+        }
       
 
         private void button1_Click(object sender, EventArgs e)
@@ -190,21 +205,43 @@ namespace Get_Computer_state
             label3.Text = " 컴퓨터이름 :  " + GetPcName(); //컴퓨터이름
             label4.Text = " 유저이름 :  " + GetUsername(); //유저이름
             label5.Text = " GPU :  " + GetGpu(); //그래픽카드
-            label6.Text = " 내부IP :  " + GetLanIp(); //내부 IP
-            label7.Text = " 외부IP :  " + GetIPAddress(); //외부 IP
-            label8.Text = " 권한:  " + GetAccountType(); //권한
-            label9.Text = " MAC Address:  " + GetMACAddress(); //MAC
-            label10.Text = " Processor :  " + GETProcessorCount();
+            label7.Text = " MAC Address:  " + GetMACAddress(); //MAC
+            label6.Text = " Processor :  " + GETProcessorCount();
             if (is64())
             {
-                label11.Text = " Bit :   64BIT";
+                label9.Text = " Bit :   64BIT";
             }
             else {
-                label11.Text = " Bit :   32BIT";
+                label9.Text = " Bit :   32BIT";
             }
+            label10.Text = " 내부IP :  " + GetLanIp(); //내부 IP
+            label11.Text = " 외부IP :  " + GetIPAddress(); //외부 IP
+            save();
+            
         }
 
         private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
         {
 
         }

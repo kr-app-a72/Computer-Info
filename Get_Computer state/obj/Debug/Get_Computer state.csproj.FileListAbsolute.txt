@@ -25,3 +25,13 @@ F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer st
 F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer_state.Main.resources
 F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer_state.Properties.Resources.resources
 F:\Visual Studio\Get_Computer state\Get_Computer state\obj\Debug\Get_Computer state.csproj.GenerateResource.Cache
+D:\Computer-Info\Get_Computer state\bin\Debug\Get_Computer state.exe.config
+D:\Computer-Info\Get_Computer state\obj\Debug\Get_Computer state.exe
+D:\Computer-Info\Get_Computer state\obj\Debug\Get_Computer state.pdb
+D:\Computer-Info\Get_Computer state\obj\Debug\Get_Computer state.csprojResolveAssemblyReference.cache
+D:\Computer-Info\Get_Computer state\obj\Debug\Get_Computer_state.Login.resources
+D:\Computer-Info\Get_Computer state\obj\Debug\Get_Computer_state.Main.resources
+D:\Computer-Info\Get_Computer state\obj\Debug\Get_Computer_state.Properties.Resources.resources
+D:\Computer-Info\Get_Computer state\obj\Debug\Get_Computer state.csproj.GenerateResource.Cache
+D:\Computer-Info\Get_Computer state\bin\Debug\Get_Computer state.exe
+D:\Computer-Info\Get_Computer state\bin\Debug\Get_Computer state.pdb

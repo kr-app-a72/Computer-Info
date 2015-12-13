@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="폼\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="폼\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="폼\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +62,9 @@
     <Compile Include="클래스\Helper.cs" />
     <Compile Include="클래스\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="폼\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="폼\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
