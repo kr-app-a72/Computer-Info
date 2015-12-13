@@ -188,8 +188,17 @@ namespace Get_Computer_state
             }
             StreamWriter sw = new StreamWriter(owner+".ci");
             sw.Write("c.-"+GetCpu()+"\n");
-            sw.Write("r.-"+s);
+            sw.Write("r.-"+s + "\n");
+            sw.Write("cn.-" + GetPcName() + "\n");
+            sw.Write("un.-" + GetUsername() + "\n");
+            sw.Write("g.-" + GetGpu() + "\n");
+            sw.Write("p.-" + Environment.ProcessorCount.ToString() + "\n");
+            sw.Write("m.-" + GetIPAddress() + "\n");
+            sw.Write("lp.-" + GetLanIp() + "\n");
+            sw.Write("op.-" + GetIPAddress() + "\n");
             sw.Close();
+
+            MessageBox.Show("저장 완료");
 
         }
       
